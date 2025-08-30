@@ -6,10 +6,10 @@ export default function Experience(){
                     <p className="font-semibold text-primary-700 text-base">My Career</p>
                     <h2 className="text-3xl font-bold">Experience</h2>
                 </div>
-                <div className="flex  flex-col my-20 py-10 items-center text-wrap mx-10">
+                <div className="flex  flex-col my-20 max-md:my-10 max-md:py-5 py-10 items-center text-wrap mx-10">
                     <div className="w-[900px] max-lg:w-auto flex flex-col gap-3.5 border-b py-5 border-secondary-300">
                         <h3 className="text-3xl font-bold">Front-End Developer</h3>
-                        <div className="flex justify-between text-2xl font-semibold text-secondary-600">
+                        <div className="flex justify-between max-sm:flex-col text-2xl font-semibold text-secondary-600">
                             <p>WeTech Dev ( Remote )</p>
                             <p>(2025 - Present )</p>
                         </div>
@@ -17,7 +17,7 @@ export default function Experience(){
                     </div>
                     <div className="w-[900px] max-lg:w-auto flex flex-col gap-3.5 border-b py-5 border-secondary-300">
                         <h3 className="text-3xl font-bold">Technical Support</h3>
-                        <div className="flex justify-between text-2xl font-semibold text-secondary-600">
+                        <div className="flex justify-between  max-sm:flex-col text-2xl font-semibold text-secondary-600">
                             <p>Batstate-u </p>
                             <p>(2024 - Present )</p>
                         </div>
