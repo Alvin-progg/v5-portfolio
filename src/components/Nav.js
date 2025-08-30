@@ -16,9 +16,11 @@ export default function Nav(){
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Faq</a></li>
                 </ul>
-                <a href="#"  className="text-3xl font-semibold">
-                    Lets talk
-                </a>
+                <div>
+                    <a href="#"  className="text-3xl font-semibold ">
+                        Lets talk
+                    </a>
+                </div>
                 
             </div>
 
