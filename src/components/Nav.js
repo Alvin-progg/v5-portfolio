@@ -72,7 +72,7 @@ export default function Nav() {
               href="#faq"
               className="text-secondary-800 hover:text-primary-600"
             >
-              Faq
+              FAQ
               <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary-500 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </li>
