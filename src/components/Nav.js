@@ -83,7 +83,7 @@ export default function Nav() {
             href="#contact"
             className="text-2xl font-semibold text-secondary-200 bg-slate-800 py-2 px-4 rounded-xl hover:bg-primary-800 max-md:text-xl max-md:px-3 relative group transition-all duration-300 hover:-translate-y-1 hover:shadow-lg overflow-hidden"
           >
-            <span className="relative z-10">Let's talk</span>
+            <span className="relative z-10">Let&apos;s talk</span>
             <div className="absolute inset-0 bg-gradient-to-r from-primary-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out rounded-xl"></div>
           </Link>
           <button className="text-3xl text-secondary-800 items-center hidden max-lg:flex">
