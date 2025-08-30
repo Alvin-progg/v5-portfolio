@@ -7,6 +7,10 @@ const roboto = Roboto({ weight: ["400", "700"], subsets: ["latin"] });
 export const metadata = {
   title: "Alvin-progg",
   description: "v5-portfolio",
+  icons: {
+    icon: '/favIcon.png'
+  }
+
 };
 
 export default function RootLayout({ children }) {
