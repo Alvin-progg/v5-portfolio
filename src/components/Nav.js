@@ -49,7 +49,7 @@ export default function Nav() {
         <div className="flex gap-4 items-center">
           <Link
             href="#contact"
-            className="text-2xl font-semibold text-secondary-200 bg-slate-900 py-2 px-4 rounded-2xl hover:bg-primary-800 max-md:text-xl max-md:px-3"
+            className="text-2xl font-semibold text-secondary-200 bg-slate-800 py-2 px-4 rounded-2xl hover:bg-primary-800 max-md:text-xl max-md:px-3"
           >
             Lets talk
           </Link>

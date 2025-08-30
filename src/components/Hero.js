@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import profile from '@/../public/profile.jpeg'
 import { GoDotFill } from "react-icons/go";
@@ -24,7 +26,7 @@ export default function Hero(){
                     <h2 className="text-7xl font-bold max-md:text-5xl max-sm:text-3xl">Full-Stack Developer</h2>
                 </div>
                 <div className=" max-xl:my-5 ">
-                    <button className="text-3xl font-bold cursor-pointer px-4 py-3 max-md:text-2xl max-md:px-3 max-md:py-2  bg-secondary-900 hover:bg-primary-800 text-secondary-200 rounded-2xl" aria-label="download CV">
+                    <button className="text-3xl font-bold cursor-pointer px-4 py-3 max-md:text-2xl max-md:px-3 max-md:py-2  bg-secondary-800 hover:bg-primary-800 text-secondary-200 rounded-2xl" aria-label="download CV">
                         Download CV
                     </button>
                 </div>
