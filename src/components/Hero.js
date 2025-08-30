@@ -22,7 +22,7 @@ export default function Hero(){
                     <h2 className="text-7xl font-bold">Full-Stack Developer</h2>
                 </div>
                 <div className="my-20">
-                    <button className="text-3xl font-bold cursor-pointer px-4 py-3 bg-secondary-900 hover:bg-primary-800 text-secondary-200 rounded-2xl">
+                    <button className="text-3xl font-bold cursor-pointer px-4 py-3 bg-secondary-900 hover:bg-primary-800 text-secondary-200 rounded-2xl" aria-label="download CV">
                         Download CV
                     </button>
                 </div>
