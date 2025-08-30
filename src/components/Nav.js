@@ -1,6 +1,8 @@
 "use client";
 
 export default function Nav() {
+
+    
   return (
     <nav className="w-full h-[10vh] ">
       <div className="flex justify-between px-7 mx-66 py-8 max-xl:mx-40 ">
