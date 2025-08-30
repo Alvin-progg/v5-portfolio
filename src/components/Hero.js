@@ -7,12 +7,12 @@ import { GoDotFill } from "react-icons/go";
 export default function Hero(){
 
     return(
-        <section id="home" className=" w-full bg-cover my-20 h-auto bg-no-repeat flex justify-center items-center overflow-hidden lg:my-4">
+        <section id="home" className=" w-full  my-20 h-auto  flex justify-center items-center overflow-hidden lg:my-4">
             <div className="items-center flex flex-col   justify-center my-25 max-xl:my-15 " >
                 <div className="flex-col flex  items-center justify-center">
                 <div className="relative h-[200px] w-[200px] max-md:h-[150px] max-md:w-[150px] lg:h-[170px] lg:w-[170px] ">
                     <Image 
-                    priority={true}
+                    priority={false}
                     alt="Profile pic"
                     src={profile}
                     fill

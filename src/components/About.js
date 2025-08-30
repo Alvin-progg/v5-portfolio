@@ -20,7 +20,7 @@ export default function About(){
                         </p>
                     </div>
                 </div>
-                <div className='flex gap-10 justify-between items-center font-bold max-md:flex-col'>
+                <div className='grid grid-cols-4 grid-rows-1 max-sm:grid-cols-1 max-lg:grid-cols-2 max-lg:grid-rows-2 gap-10 max-xl:gap-6 justify-between items-center font-bold '>
                     <div className='flex flex-col items-center text-primary-800' >
                         <div className='flex text-3xl text-center '>
                             <CountUp  end={8} duration={2} enableScrollSpy={true} scrollSpyDelay={50}/>
