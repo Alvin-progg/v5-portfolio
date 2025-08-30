@@ -7,7 +7,7 @@ import { GoDotFill } from "react-icons/go";
 export default function Hero(){
 
     return(
-        <section  className=" w-full bg-cover h-auto bg-no-repeat flex justify-center items-center overflow-hidden lg:my-4">
+        <section id="home" className=" w-full bg-cover h-auto bg-no-repeat flex justify-center items-center overflow-hidden lg:my-4">
             <div className="items-center flex flex-col   justify-center my-25 max-xl:my-15 " >
                 <div className="flex-col flex  items-center justify-center">
                 <div className="relative h-[200px] w-[200px] max-md:h-[150px] max-md:w-[150px] lg:h-[170px] lg:w-[170px] ">
@@ -26,8 +26,11 @@ export default function Hero(){
                     <h2 className="text-7xl font-bold max-md:text-5xl max-sm:text-3xl lg:text-6xl">Full-Stack Developer</h2>
                 </div>
                 <div className=" max-xl:my-5 ">
-                    <button className="text-3xl font-bold cursor-pointer px-4 py-3 max-md:text-2xl max-md:px-3 max-md:py-2  bg-secondary-800 hover:bg-primary-800 text-secondary-200 rounded-xl" aria-label="download CV">
-                        Download CV
+                    <button className="text-3xl relative transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl group font-bold cursor-pointer px-4 py-3 max-md:text-2xl max-md:px-3 max-md:py-2 bg-secondary-800 hover:bg-primary-800 text-secondary-200 rounded-xl overflow-hidden" aria-label="download CV">
+                        <span className="relative z-10 flex items-center gap-2 ">
+                            Download CV
+                        </span>
+                        <div className="absolute inset-0 bg-gradient-to-r from-indigo-600  transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out rounded-xl"></div>
                     </button>
                 </div>
             </div>
