@@ -37,7 +37,7 @@ export default function Nav() {
               className="text-secondary-800 hover:text-primary-600"
             >
               Home
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-indigo-500 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary-500 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </li>
           <li className="group relative">
@@ -46,7 +46,7 @@ export default function Nav() {
               className="text-secondary-800 hover:text-primary-600"
             >
               About
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-indigo-500 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary-500 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </li>
           <li className="group relative">
@@ -55,7 +55,7 @@ export default function Nav() {
               className="text-secondary-800 hover:text-primary-600"
             >
               Experience
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-indigo-500 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary-500 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </li>
           <li className="group relative">
@@ -64,7 +64,7 @@ export default function Nav() {
               className="text-secondary-800 hover:text-primary-600"
             >
               Projects
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-indigo-500 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary-500 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </li>
           <li className="group relative">
@@ -73,7 +73,7 @@ export default function Nav() {
               className="text-secondary-800 hover:text-primary-600"
             >
               Faq
-              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-indigo-500 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-primary-500 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </li>
         </ul>
