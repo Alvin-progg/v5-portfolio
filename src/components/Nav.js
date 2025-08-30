@@ -16,13 +16,13 @@ export default function Nav() {
 
   return (
     <nav 
-      className={`fixed top-0 left-0 w-full h-[10vw] z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 w-full h-[10vh] z-50 transition-all duration-300 ${
         scrolled 
           ? 'bg-white/80 backdrop-blur-md shadow-lg border-b border-white/20' 
           : 'bg-transparent'
       }`}
     >
-      <div className={`flex justify-between px-7 mx-66 py-8 max-xl:mx-35 max-lg:mx-20 max-md:mx-5 max-sm:mx-3`}>
+      <div className={`flex justify-between px-7 mx-50  py-8 max-xl:mx-30 max-lg:mx-20 max-md:mx-5 max-sm:mx-3`}>
         <Link
           href="/"
           className="font-bold text-3xl text-secondary-800 hover:text-primary-600 items-center py-2"
