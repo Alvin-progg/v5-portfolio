@@ -19,7 +19,7 @@ export default function Hero(){
                     className="rounded-full   border-8 border-white object-cover"
                     />
                 </div>
-                <p className="font-semibold text-xl py-2 px-4 -mt-1 bg-white rounded-4xl text-cente flex items-center gap-1"><GoDotFill className="text-green-800"/>  Available for Work</p>
+                <p className="font-semibold text-xl py-2 px-4 -mt-1 bg-white rounded-4xl text-cente flex items-center gap-1"><GoDotFill className="text-green-500"/>  Available for Work</p>
                 </div>
                 <div className="flex flex-col items-center  my-10 max-xl:my-5 py-2 w-6xl text-center gap-3.5">
                     <h1 className="text-5xl font-bold max-md:text-3xl max-sm:text-2xl">Hi , I&apos;m <span className="text-primary-900">Alvin Aloya</span></h1>
