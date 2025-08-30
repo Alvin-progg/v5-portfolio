@@ -18,7 +18,7 @@ export default function Hero(){
                 <p className="font-semibold text-xl py-2 px-4 -mt-1 bg-white rounded-4xl text-cente flex items-center gap-1"><GoDotFill className="text-green-800"/>  Available for Work</p>
                 </div>
                 <div className="flex flex-col items-center  my-10 py-2 w-6xl text-center gap-3.5">
-                    <h1 className="text-5xl font-bold">Hi , I'm <span className="text-primary-900">Alvin Aloya</span></h1>
+                    <h1 className="text-5xl font-bold">Hi , I&apos;m <span className="text-primary-900">Alvin Aloya</span></h1>
                     <h2 className="text-7xl font-bold">Full-Stack Developer</h2>
                 </div>
                 <div className="my-20">
