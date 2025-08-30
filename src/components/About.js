@@ -7,7 +7,7 @@ export default function About(){
                     <h2 className="text-3xl font-bold">ABOUT ME</h2>
                 </div>
                 <div className="flex gap-4   my-20 py-6  max-lg:flex-col ">
-                    <div className="w-[650px] max-md:w-auto  max-md:text-center flex flex-col gap-10 text-wrap">
+                    <div className="w-[650px] max-md:w-auto  max-md:text-center flex flex-col gap-10 text-wrap ">
                         <h3 className="text-4xl font-semibold leading-15">Hi, I&apos;m <span className="text-primary-700 ">Alvin Aloya</span> — A Web Developer <span className="text-secondary-500">with Creative Expertise & Years of Experience.</span></h3>
                         <p className="text-2xl">“Delivering work within time and budget which meets client&apos;s requirements is my moto.”</p>
                     </div>
