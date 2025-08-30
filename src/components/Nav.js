@@ -3,16 +3,16 @@
 export default function Nav() {
   return (
     <nav className="w-full h-[10vh] ">
-      <div className="flex justify-between p-7 mx-66 py-10 ">
+      <div className="flex justify-between px-7 mx-66 py-8 max-xl:mx-40 ">
         <a
-          href="#"
+          href="/"
           className="font-bold text-3xl text-secondary-800 hover:text-primary-600"
         >
           VIN.
         </a>
         <ul className="flex gap-10 text-2xl font-semibold items-center">
           <li className="group relative">
-            <a href="#" className="text-secondary-800 hover:text-primary-600">
+            <a href="/" className="text-secondary-800 hover:text-primary-600">
               Home
               <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-indigo-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
