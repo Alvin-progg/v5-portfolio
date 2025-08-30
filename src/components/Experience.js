@@ -1,6 +1,6 @@
 export default function Experience(){
     return(
-        <section className="w-full">
+        <section id="experience" className="w-full h-screen">
             test
         </section>
     );
