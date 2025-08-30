@@ -23,7 +23,7 @@ export default function Hero(){
                     <h1 className="text-5xl font-bold max-md:text-3xl max-sm:text-2xl">Hi , I&apos;m <span className="text-primary-900">Alvin Aloya</span></h1>
                     <h2 className="text-7xl font-bold max-md:text-5xl max-sm:text-3xl">Full-Stack Developer</h2>
                 </div>
-                <div className="my-20 max-xl:my-5 ">
+                <div className=" max-xl:my-5 ">
                     <button className="text-3xl font-bold cursor-pointer px-4 py-3 max-md:text-2xl max-md:px-3 max-md:py-2  bg-secondary-900 hover:bg-primary-800 text-secondary-200 rounded-2xl" aria-label="download CV">
                         Download CV
                     </button>
