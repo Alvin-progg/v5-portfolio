@@ -16,7 +16,7 @@ export default function Hero(){
                     alt="Profile pic"
                     src={profile}
                     fill
-                    className="rounded-full drop-shadow-xl  border-8 border-white object-cover"
+                    className="rounded-full   border-8 border-white object-cover"
                     />
                 </div>
                 <p className="font-semibold text-xl py-2 px-4 -mt-1 bg-white rounded-4xl text-cente flex items-center gap-1"><GoDotFill className="text-green-800"/>  Available for Work</p>
