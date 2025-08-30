@@ -12,7 +12,7 @@ export default function About(){
                 <div className="flex gap-4   my-10 py-6  max-lg:flex-col  ">
                     <div className="w-[650px] max-md:w-auto max-xl:w-[500px] max-md:text-center flex flex-col gap-10 text-wrap ">
                         <h3 className="text-4xl font-semibold leading-15 max-xl:text-3xl max-lg:text-center">Hi, I&apos;m <span className="text-primary-700 ">Alvin Aloya</span> — A Web Developer <span className="text-secondary-500">with Creative Expertise & Years of Experience.</span></h3>
-                        <p className="text-2xl max-xl:text-xl max-lg:text-center">“Delivering work within time and budget which meets client&apos;s requirements is my moto.”</p>
+                        <p className="text-2xl max-xl:text-xl max-lg:text-center font-light ">“Delivering work within time and budget which meets client&apos;s requirements is my moto.”</p>
                     </div>
                     <div className="w-[650px] text-2xl max-xl:w-[500px] text-wrap max-md:w-auto items-center max-md:mx-8 max-sm:my-3 max-sm:text-xl max-md:text-center max-xl:text-xl max-lg:text-center  ">
                         <p className="text-secondary-900 font-light tracking-wider leading-loose">
