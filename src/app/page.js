@@ -1,3 +1,4 @@
+import About from "@/components/About"
 import Hero from "@/components/Hero"
 import Nav from "@/components/Nav"
 
@@ -10,6 +11,7 @@ const page = () => {
     </header>
     <main>
       <Hero/>
+      <About/>
     </main>
     
     </>

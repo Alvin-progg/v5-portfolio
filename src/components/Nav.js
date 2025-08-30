@@ -5,7 +5,7 @@ import { RiMenu3Fill } from "react-icons/ri";
 export default function Nav() {
   return (
     <nav className="w-full h-[10vh] ">
-      <div className="flex justify-between px-7 mx-50 py-8 max-xl:mx-35 max-lg:mx-20 max-md:mx-5   ">
+      <div className="flex justify-between px-7 mx-66 py-8 max-xl:mx-35 max-lg:mx-20 max-md:mx-5   ">
         <Link
           href="/"
           className="font-bold text-3xl text-secondary-800 hover:text-primary-600 items-center py-2"
@@ -49,7 +49,7 @@ export default function Nav() {
         <div className="flex gap-4 items-center">
           <Link
             href="#contact"
-            className="text-2xl font-semibold text-secondary-200 bg-slate-800 py-2 px-4 rounded-2xl hover:bg-primary-800 max-md:text-xl max-md:px-3"
+            className="text-2xl font-semibold text-secondary-200 bg-slate-800 py-2 px-4 rounded-xl hover:bg-primary-800 max-md:text-xl max-md:px-3"
           >
             Lets talk
           </Link>
