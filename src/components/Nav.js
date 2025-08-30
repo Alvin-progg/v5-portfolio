@@ -1,18 +1,19 @@
 "use client";
 import Link from "next/link";
+import { RiMenu3Fill } from "react-icons/ri";
 
 export default function Nav() {
   return (
-    <nav className="w-full h-[10vh]">
-      <div className="flex justify-between px-7 mx-66 py-8 max-xl:mx-40 max-lg:mx-20  ">
+    <nav className="w-full h-[10vh] overflow-hidden">
+      <div className="flex justify-between px-7 mx-50 py-8 max-xl:mx-40 max-lg:mx-20 max-md:mx-5   ">
         <Link
           href="/"
-          className="font-bold text-3xl text-secondary-800 hover:text-primary-600"
+          className="font-bold text-3xl text-secondary-800 hover:text-primary-600 items-center py-2"
         >
           VIN.
         </Link>
 
-        <ul className="flex gap-10 text-2xl font-semibold items-center">
+        <ul className="flex gap-10 text-2xl font-semibold items-center max-lg:hidden max-xl:gap-5">
           <li className="group relative">
             <Link href="/" className="text-secondary-800 hover:text-primary-600">
               Home
@@ -45,13 +46,16 @@ export default function Nav() {
           </li>
         </ul>
 
-        <div>
+        <div className="flex gap-4 items-center">
           <Link
             href="#contact"
             className="text-2xl font-semibold text-secondary-200 bg-slate-900 py-2 px-4 rounded-2xl hover:bg-primary-800"
           >
             Lets talk
           </Link>
+          <button className="text-3xl text-secondary-800 items-center hidden max-lg:flex">
+                <RiMenu3Fill/>
+          </button>
         </div>
       </div>
     </nav>
