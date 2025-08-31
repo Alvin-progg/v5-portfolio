@@ -12,6 +12,7 @@ export default function Hero(){
                 <div className="flex-col flex  items-center justify-center">
                 <div className="relative h-[200px] w-[200px] max-md:h-[150px] max-md:w-[150px] lg:h-[170px] lg:w-[170px] ">
                     <Image 
+                    loading="lazy"
                     priority={false}
                     alt="Profile pic"
                     src={profile}
