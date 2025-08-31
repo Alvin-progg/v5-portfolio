@@ -1,6 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import { Tooltip } from "flowbite-react";
 import tech from "@/constants/tech";
+import anselmo from "@/../public/anselmo.jpg";
+import bats from "@/../public/batstate-u.jpg";
 export default function Experience() {
   return (
     <section id="experience" className="w-full ">
@@ -55,6 +59,61 @@ export default function Experience() {
               />
             </Tooltip>
           ))}
+        </div>
+        <div className="my-10 py-10   ">
+          <div className="flex flex-col gap-3 items-center ">
+            <p className="font-semibold text-primary-700 text-base">
+              Academic Background
+            </p>
+            <h2 className="text-3xl font-bold">Education</h2>
+          </div>
+          <div className="my-10 py-10  items-center flex flex-col justify-center mx-10 ">
+            <div className="flex gap-10 max-lg:flex-col max-lg:gap-12  max-sm:mx-8   ">
+              <div className="flex max-sm:flex-col   gap-4">
+                <Image
+                  src={anselmo}
+                  alt="Anselmo Logo"
+                  width={120}
+                  height={120}
+                  
+                  className="rounded-full object-cover max-xl:size-[100px] max-sm:size-[60px]"
+                />
+                <div className="flex flex-col gap-1">
+                  <p className="text-secondary-600 max-sm:text-sm">Strand:</p>
+                  <h3 className="text-xl font-semibold text-primary-800">
+                    Computer System Servicing
+                  </h3>
+                  <h4 className="text-secondary-600 max-sm:text-sm">
+                    2022 - 2024
+                  </h4>
+                  <p className="text-secondary-600 max-sm:text-sm">
+                    Anselmo A. Sandoval MNHS - Senior High School{" "}
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-4 max-sm:flex-col ">
+                <Image
+                  src={bats}
+                  alt="Batstate-u logo"
+                  width={120}
+                  height={120}
+                  className="rounded-full size-[120px] max-xl:size-[100px] max-sm:size-[60px]"
+                />
+                <div className="flex flex-col gap-1">
+                  <p className="text-secondary-600 max-sm:text-sm">Strand:</p>
+                  <h3 className="text-xl max-sm:text- font-semibold text-primary-800">
+                    Bachelor of Science in Information Technology
+                  </h3>
+                  <h4 className="text-secondary-600 max-sm:text-sm">
+                    2024 - Present
+                  </h4>
+                  <p className="text-secondary-600 max-sm:text-sm">
+                    Anselmo A. Sandoval MNHS - Senior High School{" "}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

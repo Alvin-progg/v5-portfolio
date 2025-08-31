@@ -10,16 +10,15 @@ export default function Hero(){
         <section id="home" className=" w-full  my-20 h-auto  flex justify-center items-center overflow-hidden lg:my-4">
             <div className="items-center flex flex-col py-10   justify-center my-25 max-xl:my-15 " >
                 <div className="flex-col flex  items-center justify-center">
-                <div className="relative h-[200px] w-[200px] max-md:h-[150px] max-md:w-[150px] lg:h-[170px] lg:w-[170px] ">
-                    <Image 
-                    loading="lazy"
-                    priority={false}
-                    alt="Profile pic"
+                    <Image
                     src={profile}
-                    fill
-                    className="rounded-full   border-8 border-white object-cover"
+                    priority={true}
+                    alt="Profile pic"
+                    width={200}
+                    height={200}
+                    sizes="(max-width: 768px) 150px, (min-width: 1024px) 170px, 200px"
+                    className="rounded-full border-8 border-white object-cover"
                     />
-                </div>
                 <p className="font-semibold text-xl py-2 px-4 -mt-1 bg-white rounded-4xl text-center flex items-center gap-1"><GoDotFill className="text-green-500"/>  Available for Work</p>
                 </div>
                 <div className="flex flex-col items-center  my-10 max-xl:my-5 py-2 w-6xl text-center gap-3.5">
