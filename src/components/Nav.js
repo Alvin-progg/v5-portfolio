@@ -86,7 +86,7 @@ export default function Nav() {
             <span className="relative z-10">Let&apos;s talk</span>
             <div className="absolute inset-0 bg-gradient-to-r from-primary-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out rounded-xl"></div>
           </Link>
-          <button className="text-3xl text-secondary-800 items-center hidden max-lg:flex">
+          <button aria-label="Menu " className="text-3xl text-secondary-800 items-center hidden max-lg:flex">
             <RiMenu3Fill />
           </button>
         </div>
