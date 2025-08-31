@@ -13,15 +13,15 @@ export default function Experience(){
                             <p>WeTech Dev ( Remote )</p>
                             <p>(2025 - Present )</p>
                         </div>
-                        <p className="text-xl tracking-wider font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lisque persius interesset his et ad mea essent possim iriure.</p>
+                        <p className="text-xl tracking-wider font-light">As a Front-End Developer at WetechDev, I focus on building responsive, user-friendly interfaces that deliver smooth and engaging web experiences.</p>
                     </div>
                     <div className="w-[900px] max-lg:w-auto flex flex-col gap-3.5 border-b py-5 border-secondary-300">
-                        <h3 className="text-3xl font-bold">Technical Support</h3>
+                        <h3 className="text-3xl font-bold">Tech Team Member</h3>
                         <div className="flex justify-between  max-sm:flex-col text-2xl font-semibold text-secondary-600">
                             <p>Batstate-u </p>
                             <p>(2024 - Present )</p>
                         </div>
-                        <p className="text-xl tracking-wider font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lisque persius interesset his et ad mea essent possim iriure.</p>
+                        <p className="text-xl tracking-wider font-light">I&apos;m part of the school&apos;s Tech Team, handling sound system setup and management during events. I make sure microphones, mixers, and audio run smoothly so every program is clear and engaging.</p>
                     </div>
                 </div>
             </div>
