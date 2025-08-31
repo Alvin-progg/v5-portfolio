@@ -75,6 +75,7 @@ export default function Experience() {
                   alt="Anselmo Logo"
                   width={120}
                   height={120}
+                  loading="lazy"
                   
                   className="rounded-full object-cover max-xl:size-[100px] max-sm:size-[60px]"
                 />
@@ -97,6 +98,7 @@ export default function Experience() {
                   alt="Batstate-u logo"
                   width={120}
                   height={120}
+                  loading="lazy"
                   className="rounded-full size-[120px] max-xl:size-[100px] max-sm:size-[60px]"
                 />
                 <div className="flex flex-col gap-1">
