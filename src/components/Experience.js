@@ -42,7 +42,7 @@ export default function Experience() {
           <p className="font-semibold text-primary-700 text-base">Expertise</p>
           <h2 className="text-3xl font-bold">Tech Stack</h2>
         </div>
-        <div className="flex flex-wrap gap-10 my-10">
+        <div className="flex flex-wrap gap-10 my-10 mx-10 max-sm:mx-2 justify-center px-7 items-center">
           {tech.map((item) => (
             <Tooltip key={item.id} content={item.name} placement="bottom">
               <Image
