@@ -44,8 +44,9 @@ export default function Experience() {
         </div>
         <div className="flex flex-wrap gap-10 my-10 mx-10 max-sm:mx-2 justify-center px-7 items-center">
           {tech.map((item) => (
-            <Tooltip key={item.id} content={item.name} placement="bottom">
+            <Tooltip key={item.id} content={item.name} placement="top">
               <Image
+                priority={true}
                 src={item.logo}
                 alt={item.name}
                 width={60}
