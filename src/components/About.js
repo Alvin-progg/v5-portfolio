@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 
 export default function About(){
     return(
-        <section id="about" className="w-full h-auto overflow-hidden  ">
+        <section id="about" className="w-full h-auto overflow-hidden mt-20  ">
             <div className="flex flex-col items-center justify-center my-10 max-sm:mx-2   ">
                 <div className="flex flex-col items-center justify-center gap-3">
                     <p className="font-semibold text-primary-700 text-base ">Know me More</p>

@@ -7,8 +7,8 @@ import anselmo from "@/../public/anselmo.jpg";
 import bats from "@/../public/batstate-u.jpg";
 export default function Experience() {
   return (
-    <section id="experience" className="w-full ">
-      <div className="flex flex-col  mt-20 m-2">
+    <section id="experience" className="w-full my-10 py-5 ">
+      <div className="flex flex-col   m-2">
         <div className="flex flex-col gap-3 items-center">
           <p className="font-semibold text-primary-700 text-base">My Career</p>
           <h2 className="text-3xl font-bold">Experience</h2>
