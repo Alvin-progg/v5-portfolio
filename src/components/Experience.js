@@ -60,7 +60,7 @@ export default function Experience() {
             </Tooltip>
           ))}
         </div>
-        <div className="my-10 py-10   ">
+        <div className="my-5 mt-10 py-10   ">
           <div className="flex flex-col gap-3 items-center ">
             <p className="font-semibold text-primary-700 text-base">
               Academic Background
@@ -76,7 +76,6 @@ export default function Experience() {
                   width={120}
                   height={120}
                   loading="lazy"
-                  
                   className="rounded-full object-cover max-xl:size-[100px] max-sm:size-[60px]"
                 />
                 <div className="flex flex-col gap-1">
@@ -110,12 +109,23 @@ export default function Experience() {
                     2024 - Present
                   </h4>
                   <p className="text-secondary-600 max-sm:text-sm">
-                    Batangas State University 
+                    Batangas State University
                   </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div className="   ">
+          <button
+            className="text-2xl relative transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl group font-bold cursor-pointer px-4 py-3 max-md:text-2xl max-md:px-3 max-md:py-2 bg-secondary-800 hover:bg-primary-800 text-secondary-200 rounded-xl overflow-hidden"
+            aria-label="download CV"
+          >
+            <span className="relative z-10 flex items-center gap-2 ">
+              Download CV
+            </span>
+            <div className="absolute inset-0 bg-gradient-to-r from-indigo-600  transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out rounded-xl"></div>
+          </button>
         </div>
       </div>
     </section>
