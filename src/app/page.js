@@ -1,4 +1,5 @@
 import About from "@/components/About"
+import Contacts from "@/components/Contact"
 import Experience from "@/components/Experience"
 import Faq from "@/components/Faq"
 import Hero from "@/components/Hero"
@@ -18,7 +19,11 @@ const page = () => {
       <Experience/>
       <Project/>
       <Faq/>
+      <Contacts/>
     </main>
+    <footer>
+      
+    </footer>
     
     </>
   )

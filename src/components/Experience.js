@@ -48,7 +48,7 @@ export default function Experience() {
         </div>
         <div className="flex flex-wrap gap-10 my-10 mx-10 max-sm:mx-2 justify-center px-7 items-center">
           {tech.map((item) => (
-            <Tooltip key={item.id} content={item.name} placement="top">
+            <Tooltip key={item.id} content={item.name} placement="top" className="flex flex-col gap-2 text-xl items-center justify-center ">
               <Image
                 loading="lazy"
                 src={item.logo}
@@ -57,6 +57,7 @@ export default function Experience() {
                 height={60}
                 className="cursor-pointer"
               />
+              <p className="text-center md:hidden">{item.name}</p>
             </Tooltip>
           ))}
         </div>
