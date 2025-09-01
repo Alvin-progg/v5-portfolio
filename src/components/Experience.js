@@ -88,7 +88,7 @@ export default function Experience() {
                     2022 - 2024
                   </h4>
                   <p className="text-secondary-600 max-sm:text-sm">
-                    Anselmo A. Sandoval MNHS - Senior High School{" "}
+                    Anselmo A. Sandoval MNHS - Senior High School
                   </p>
                 </div>
               </div>
@@ -110,7 +110,7 @@ export default function Experience() {
                     2024 - Present
                   </h4>
                   <p className="text-secondary-600 max-sm:text-sm">
-                    Anselmo A. Sandoval MNHS - Senior High School{" "}
+                    Batangas State University 
                   </p>
                 </div>
               </div>
