@@ -5,15 +5,23 @@ import { Tooltip } from "flowbite-react";
 import tech from "@/constants/tech";
 import anselmo from "@/../public/anselmo.jpg";
 import bats from "@/../public/batstate-u.jpg";
+import Aos from "aos";
+import { useEffect } from "react";
+
+
 export default function Experience() {
+
+ useEffect(()=>{
+  Aos.init();
+ })
   return (
     <section id="experience" className="w-full my-10 py-5 ">
-      <div className="flex flex-col   m-2">
+      <div data-aos="fade-ups" data-aos-duration="600" className="flex flex-col   m-2">
         <div className="flex flex-col gap-3 items-center">
           <p className="font-semibold text-primary-700 text-base">My Career</p>
           <h2 className="text-3xl font-bold">Experience</h2>
         </div>
-        <div className="flex  flex-col my-20 max-md:my-10 max-md:py-5 py-10 items-center text-wrap mx-10">
+        <div data-aos="fade-ups" data-aos-duration="1000" className="flex  flex-col my-20 max-md:my-10 max-md:py-5 py-10 items-center text-wrap mx-10">
           <div className="w-[900px] max-lg:w-auto flex flex-col gap-3.5 border-b py-5 border-secondary-300">
             <h3 className="text-3xl font-bold">Front-End Developer</h3>
             <div className="flex justify-between max-sm:flex-col text-2xl font-semibold text-secondary-600">
@@ -42,11 +50,11 @@ export default function Experience() {
         </div>
       </div>
       <div className="flex flex-col items-center">
-        <div className="flex flex-col gap-3 items-center">
+        <div data-aos="fade-ups" data-aos-duration="600" className="flex flex-col gap-3 items-center">
           <p className="font-semibold text-primary-700 text-base">Expertise</p>
           <h2 className="text-3xl font-bold">Tech Stack</h2>
         </div>
-        <div className="flex flex-wrap gap-10 my-10 mx-10 max-sm:mx-2 justify-center px-7 items-center">
+        <div data-aos="fade-ups" data-aos-duration="1000" className="flex flex-wrap gap-10 my-10 mx-10 max-sm:mx-2 justify-center px-7 items-center">
           {tech.map((item) => (
             <Tooltip key={item.id} content={item.name} placement="top" className="flex flex-col gap-2 text-xl items-center justify-center ">
               <Image
@@ -62,7 +70,7 @@ export default function Experience() {
           ))}
         </div>
         <div className="my-5 mt-10 py-10   ">
-          <div className="flex flex-col gap-3 items-center ">
+          <div data-aos="fade-ups" data-aos-duration="600" className="flex flex-col gap-3 items-center ">
             <p className="font-semibold text-primary-700 text-base">
               Academic Background
             </p>
@@ -70,7 +78,7 @@ export default function Experience() {
           </div>
           <div className="my-10 py-10  items-center flex flex-col justify-center mx-10 ">
             <div className="flex gap-10 max-lg:flex-col max-lg:gap-12  max-sm:mx-8   ">
-              <div className="flex max-sm:flex-col   gap-4">
+              <div data-aos="zoom-in-right" data-aos-duration="600" className="flex max-sm:flex-col   gap-4">
                 <Image
                   src={anselmo}
                   alt="Anselmo Logo"
@@ -92,7 +100,7 @@ export default function Experience() {
                   </p>
                 </div>
               </div>
-              <div className="flex gap-4 max-sm:flex-col ">
+              <div data-aos="zoom-in-left" data-aos-duration="600" className="flex gap-4 max-sm:flex-col ">
                 <Image
                   src={bats}
                   alt="Batstate-u logo"
@@ -117,7 +125,7 @@ export default function Experience() {
             </div>
           </div>
         </div>
-        <div className="   ">
+        <div data-aos="fade-up" data-aos-duration="1000" className="   ">
           <button
             className="text-xl relative transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl group font-bold cursor-pointer px-4 py-3 max-md:text-2xl max-md:px-3 max-md:py-2 bg-secondary-800 hover:bg-primary-800 text-secondary-200 rounded-xl overflow-hidden"
             aria-label="download CV"

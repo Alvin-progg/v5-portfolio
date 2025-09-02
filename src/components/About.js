@@ -1,26 +1,32 @@
 "use client"
 import CountUp from 'react-countup';
-
+import Aos from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
 export default function About(){
+    useEffect(()=>{
+        Aos.init(
+        );
+    })
     return(
         <section id="about" className="w-full h-auto overflow-hidden mt-20  ">
-            <div className="flex flex-col items-center justify-center my-10 max-sm:mx-2   ">
-                <div className="flex flex-col items-center justify-center gap-3">
+            <div    className="flex flex-col items-center justify-center my-10 max-sm:mx-2   ">
+                <div data-aos="fade-ups" data-aos-duration="500" className="flex flex-col items-center justify-center gap-3">
                     <p className="font-semibold text-primary-700 text-base ">Know me More</p>
                     <h2 className="text-3xl font-bold">ABOUT ME</h2>
                 </div>
-                <div className="flex gap-4   my-10 py-6  max-lg:flex-col  ">
-                    <div className="w-[650px] max-md:w-auto max-2xl:w-[500px] max-md:text-center flex flex-col gap-10 text-wrap ">
+                <div  className="flex gap-4    my-10 py-6  max-lg:flex-col  ">
+                    <div data-aos="zoom-in-right" data-aos-duration="600" className="w-[650px] max-md:w-auto max-2xl:w-[500px] max-md:text-center flex flex-col gap-10 text-wrap ">
                         <h3 className="text-4xl font-semibold leading-15 max-xl:text-3xl max-lg:text-center">Hi, I&apos;m <span className="text-primary-700 ">Alvin Aloya</span> — A Web Developer <span className="text-secondary-500">with Creative Expertise & Years of Experience.</span></h3>
                         <p className="text-2xl max-xl:text-xl max-lg:text-center font-light ">“Delivering work within time and budget which meets client&apos;s requirements is my moto.”</p>
                     </div>
-                    <div className="w-[650px] text-2xl max-2xl:w-[500px] text-wrap max-md:w-auto items-center max-md:mx-8 max-sm:my-3 max-sm:text-xl max-md:text-center max-xl:text-xl max-lg:text-center  ">
+                    <div data-aos="zoom-in-left" data-aos-duration="600" className="w-[650px] text-2xl max-2xl:w-[500px] text-wrap max-md:w-auto items-center max-md:mx-8 max-sm:my-3 max-sm:text-xl max-md:text-center max-xl:text-xl max-lg:text-center  ">
                         <p className="text-secondary-900 font-light tracking-wider leading-loose">
                             I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
                     </div>
                 </div>
-                <div className='grid grid-cols-4 grid-rows-1 max-sm:grid-cols-1 max-lg:grid-cols-2 max-lg:grid-rows-2 gap-10 max-xl:gap-6 justify-between items-center font-bold '>
+                <div data-aos="fade-up" className='grid grid-cols-4 grid-rows-1 max-sm:grid-cols-1 max-lg:grid-cols-2 max-lg:grid-rows-2 gap-10 max-xl:gap-6 justify-between items-center font-bold '>
                     <div className='flex flex-col items-center text-primary-800' >
                         <div className='flex text-3xl text-center '>
                             <CountUp  end={8} duration={2} enableScrollSpy={true} scrollSpyDelay={50}/>
