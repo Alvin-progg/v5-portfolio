@@ -1,4 +1,4 @@
-# Portfolio Website
+# 🌐 Portfolio Website
 
 ## 📌 Project Overview  
 This project is a personal portfolio website designed to showcase my skills, experience, and projects. It serves as a professional platform where potential clients and collaborators can learn more about me and my work. The primary purpose of this portfolio is to support freelancing opportunities by providing a modern, responsive, and user-friendly interface.
@@ -17,3 +17,11 @@ The main goal of this portfolio is to:
 - Present my skills and projects in a professional way.  
 - Attract freelance opportunities by providing an accessible platform for potential clients.  
 - Deliver a modern and responsive design that works across all devices.  
+
+## ⚙️ How to Run Locally  
+
+Follow these steps to run the portfolio on your local machine:
+
+1. **Clone the repository**  
+   ```bash
+   git clone <repository-url>
