@@ -35,6 +35,7 @@ Follow these steps to run the portfolio on your local machine:
    ```bash
    npm run dev
 5. **Open in browser**
-Go to http://localhost:3000 to view the portfolio.
+   ```bash
+   Go to http://localhost:3000 to view the portfolio.
 
 **Still Work in Progress**
