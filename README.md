@@ -24,4 +24,17 @@ Follow these steps to run the portfolio on your local machine:
 
 1. **Clone the repository**  
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Alvin-progg/v5-portfolio
+2. **Navigate to the project folder**
+   ```bash
+   cd portfolio
+3. **Install dependencies**  
+   ```bash
+   npm install
+4. **Run the development server**
+   ```bash
+   npm run dev
+5. **Open in browser**
+Go to http://localhost:3000 to view the portfolio.
+
+
