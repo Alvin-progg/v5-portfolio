@@ -125,8 +125,9 @@ export default function Experience() {
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1000" className="   ">
+        <div  className="   ">
           <button
+            
             className="text-xl relative transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl group font-bold cursor-pointer px-4 py-3 max-md:text-2xl max-md:px-3 max-md:py-2 bg-secondary-800 hover:bg-primary-800 text-secondary-200 rounded-xl overflow-hidden"
             aria-label="download CV"
           >
