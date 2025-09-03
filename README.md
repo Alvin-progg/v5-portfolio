@@ -3,6 +3,8 @@
 ## 📌 Project Overview  
 This project is a personal portfolio website designed to showcase my skills, experience, and projects. It serves as a professional platform where potential clients and collaborators can learn more about me and my work. The primary purpose of this portfolio is to support freelancing opportunities by providing a modern, responsive, and user-friendly interface.
 
+<img width="1902" height="858" alt="Screenshot 2025-08-30 215157" src="https://github.com/user-attachments/assets/d51a54e9-ca9a-47e0-ba07-2a59054c89c7" />
+
 ## 🛠 Tech Stack  
 The website is built using the following technologies:
 
@@ -19,6 +21,7 @@ The main goal of this portfolio is to:
 - Deliver a modern and responsive design that works across all devices.  
 
 ## ⚙️ How to Run Locally  
+
 
 Follow these steps to run the portfolio on your local machine:
 
