@@ -11,6 +11,10 @@ export default function Hero(){
         Aos.init();
     })
 
+
+
+    
+
     return(
         <section id="home" className=" w-full  my-20 h-auto  flex justify-center items-center overflow-hidden lg:my-4">
             <div data-aos="fade-up"  className="items-center flex flex-col py-10   justify-center my-25 max-xl:my-15 " >
