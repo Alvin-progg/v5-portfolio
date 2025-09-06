@@ -24,6 +24,11 @@ export default function Project() {
                 height={250}
                 className="object-cover rounded-2xl h-auto w-auto"
               />
+
+
+
+
+              
               <div className="flex flex-col gap-3.5">
                 <h2 className="text-3xl text-primary-600 font-semibold">{project.name}</h2>
                 <p className="leading-loose font-light max-xl:text-sm max-xl:leading-none">{project.disc}</p>
