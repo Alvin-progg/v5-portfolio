@@ -1,42 +1,59 @@
+"use client"
+
 import Link from "next/link";
 import Image from "next/image";
 import projectConst from "@/constants/projectConst";
+import { useState } from "react";
 
 export default function Project() {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const visibleProjects = isExpanded ? projectConst : projectConst.slice(0, 4);
+
   return (
-    <section id="projects">
-      <div className="flex flex-col gap-3 items-center">
-        <p className="font-semibold text-primary-700 text-base">My Work</p>
-        <h2 className="text-3xl font-bold">Projects</h2>
+    <section id="projects" className="py-16">
+      <div data-aos="fade-ups" data-aos-duration="500" className="flex flex-col gap-4 items-center text-center">
+        <p className="font-semibold text-indigo-600 text-lg tracking-wide">My Work</p>
+        <h2 className="text-4xl font-bold text-gray-800">Projects</h2>
       </div>
-      <div className="grid max-lg:grid-cols-1 grid-cols-2 items-center justify-center my-10 py-5 mx-66 max-lg:mx-0 gap-4 max-xl:gap-44">
-        {projectConst.map((project) => {
-          return (
-            <div
-              key={project.id}
-              className="flex flex-col w-[600px] gap-3 max-sm:w-auto border h-[400px] border-secondary-300 rounded-2xl p-4 items-center  max-xl:mx-0 max-xl:w-[300px]"
-            >
-              <Image
-                loading="lazy"
-                src={project.img}
-                alt={`${project.name} image`}
-                width={250}
-                height={250}
-                className="object-cover rounded-2xl h-auto w-auto"
-              />
-
-
-
-
-              
-              <div className="flex flex-col gap-3.5">
-                <h2 className="text-3xl text-primary-600 font-semibold">{project.name}</h2>
-                <p className="leading-loose font-light max-xl:text-sm max-xl:leading-none">{project.disc}</p>
-              </div>
+      <div className="grid max-lg:grid-cols-1 grid-cols-2 gap-8 max-w-7xl mx-auto my-12 px-4 sm:px-6 lg:px-8">
+        {visibleProjects.map((project) => (
+          <div
+            data-aos="fade-ups" data-aos-duration="500"
+            key={project.id}
+            className="relative flex flex-col gap-4 border border-gray-200 rounded-2xl p-6 bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out max-sm:w-full w-[500px] max-xl:w-[350px]"
+          >
+            <Image
+              loading="lazy"
+              src={project.img}
+              alt={`${project.name} image`}
+              width={300}
+              height={200}
+              className="object-cover rounded-xl h-48 w-full transition-transform duration-300 hover:scale-105"
+            />
+            <div className="flex flex-col gap-3">
+              <h2 className="text-2xl font-semibold text-indigo-700">{project.name}</h2>
+              <p className="text-gray-600 leading-relaxed text-sm">{project.disc}</p>
+              <Link
+                href={project.link || "#"}
+                className="mt-2 inline-block text-indigo-600 font-medium hover:text-indigo-800 transition-colors"
+              >
+                View Project →
+              </Link>
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
+      {projectConst.length > 4 && (
+        <div className="flex justify-center mt-8">
+          <button
+            aria-label="Expand button"
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-full hover:bg-indigo-700 transition-colors duration-300"
+          >
+            {isExpanded ? "Show Less" : "Show More"}
+          </button>
+        </div>
+      )}
     </section>
   );
 }

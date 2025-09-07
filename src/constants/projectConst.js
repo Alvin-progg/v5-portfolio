@@ -1,4 +1,4 @@
-import test from "@/../public/test.jpg";
+
 
 import p1 from "@/../public/project/p1.png";
 import p2 from "@/../public/project/p2.png";
