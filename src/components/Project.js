@@ -48,9 +48,10 @@ export default function Project() {
           <button
             aria-label="Expand button"
             onClick={() => setIsExpanded(!isExpanded)}
-            className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-full hover:bg-indigo-700 transition-colors duration-300"
+            className="text-xl relative transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl group font-bold cursor-pointer px-4 py-3 max-md:text-2xl max-md:px-3 max-md:py-2 bg-secondary-800 hover:bg-primary-800 text-secondary-200 rounded-xl overflow-hidden"
           >
-            {isExpanded ? "Show Less" : "Show More"}
+            <span  className="relative z-10 flex items-center gap-2 ">{isExpanded ? "Show Less" : "Show More"}</span>
+            <div className="absolute inset-0 bg-gradient-to-r from-indigo-600  transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out rounded-xl"></div>
           </button>
         </div>
       )}
