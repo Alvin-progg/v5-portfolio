@@ -12,10 +12,10 @@ export default function Contacts() {
         <h2 className="text-4xl font-bold text-gray-800">Contact</h2>
       </div>
 
-      <div>
+      <div className="flex gap-30 mx-66">
         <div>
           <div>
-            <h2>
+            <h2 className="text-3xl text-wrap">
               I enjoy discussing new projects challenges. Please share as much
               info, as possible so i can get the most out of our first catch-up.
             </h2>
@@ -31,9 +31,7 @@ export default function Contacts() {
             </div>
           </div>
         </div>
-        <form>
-            
-        </form>
+    
       </div>
     </section>
   );
