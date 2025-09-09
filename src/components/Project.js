@@ -15,7 +15,7 @@ export default function Project() {
         <p className="font-semibold text-indigo-600 text-lg tracking-wide">My Work</p>
         <h2 className="text-4xl font-bold text-gray-800">Projects</h2>
       </div>
-      <div className="grid max-lg:grid-cols-1 grid-cols-2 gap-8 max-w-7xl mx-auto my-12 px-4 sm:px-6 lg:px-8">
+      <div className="grid max-lg:grid-cols-1 grid-cols-2 gap-8 max-w-7xl mx-auto my-12 px-4 sm:px-6 lg:px-8 items-center justify-center max-lg:flex  max-lg:flex-col ">
         {visibleProjects.map((project) => (
           <div
             data-aos="fade-ups" data-aos-duration="500"
