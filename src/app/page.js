@@ -5,7 +5,7 @@ import Faq from "@/components/Faq"
 import Hero from "@/components/Hero"
 import Nav from "@/components/Nav"
 import Project from "@/components/Project"
-
+import Foot from "@/components/Foot"
 
 const page = () => {
   return (
@@ -22,7 +22,7 @@ const page = () => {
       <Contacts/>
     </main>
     <footer>
-      
+      <Foot/>
     </footer>
     
     </>

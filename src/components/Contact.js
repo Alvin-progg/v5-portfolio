@@ -74,7 +74,7 @@ export default function Contacts() {
             <textarea
               id="message"
               rows="4"
-              className="block p-2.5 w-full text-sm text-gray-900 rounded-lg border border-secondary-300 bg-secondary-100"
+              className="block p-2.5 w-full text-sm text-gray-900 rounded-lg border-b border-secondary-300 bg-secondary-100"
               placeholder="Write your message here..."
             ></textarea>
           </div>
