@@ -1,22 +1,25 @@
 export default function Contacts() {
   return (
-    <section id="contact" className="">
+    <section id="contact" className="px-4 py-16 sm:px-6 lg:px-8">
       <div
-        data-aos="fade-ups"
+        data-aos="fade-up"
         data-aos-duration="500"
         className="flex flex-col gap-4 items-center text-center"
       >
-        <p className="font-semibold text-indigo-600 text-lg tracking-wide">
+        <p className="font-semibold text-indigo-600 text-base sm:text-lg tracking-wide">
           Get in Touch
         </p>
-        <h2 className="text-4xl font-bold text-gray-800">Contact</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">Contact</h2>
       </div>
 
-      <div data-aos="fade-ups"
-        data-aos-duration="500" className="flex gap-30   my-30 justify-center ">
-        <div className="flex w-[600px] flex-col gap-8">
-          <div>
-            <h2 className="text-3xl text-wrap tracking-wide ">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="500"
+        className="mx-auto mt-16 max-w-5xl flex flex-col lg:flex-row gap-8 lg:gap-12 justify-center"
+      >
+        <div className="flex flex-col gap-6 lg:gap-8 lg:w-1/2">
+          <div className="text-lg sm:text-xl">
+            <h2 className="text-2xl sm:text-3xl text-wrap tracking-wide leading-relaxed">
               <span className="text-primary-700">
                 I enjoy discussing new projects challenges
               </span>
@@ -24,28 +27,28 @@ export default function Contacts() {
               of our first catch-up.
             </h2>
           </div>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-4 sm:gap-5">
             <div>
-              <h3 className="tracking-wide text-2xl">Living In:</h3>
-              <p className="text-xl font-light"> Batangas , The Philippines</p>
+              <h3 className="tracking-wide text-xl sm:text-2xl">Living In:</h3>
+              <p className="text-lg sm:text-xl font-light">Batangas, The Philippines</p>
             </div>
             <div>
-              <h3 className="tracking-wider text-2xl">Call Me: </h3>
-              <p className="text-xl font-light">(+63) 9626361561</p>
+              <h3 className="tracking-wider text-xl sm:text-2xl">Call Me: </h3>
+              <p className="text-lg sm:text-xl font-light">(+63) 9626361561</p>
             </div>
           </div>
         </div>
-        <form className="w-[500px] flex flex-col gap-9">
+        <form className="flex flex-col gap-6 sm:gap-9 max-w-lg w-full lg:w-1/2">
           <div className="relative z-0">
             <input
               type="text"
               id="floating_standard"
-              className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-primary-700 peer"
               placeholder=" "
             />
             <label
               htmlFor="floating_standard"
-              className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+              className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-primary-700 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
             >
               Name
             </label>
@@ -54,12 +57,12 @@ export default function Contacts() {
             <input
               type="email"
               id="floating_email"
-              className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+              className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-primary-700 peer"
               placeholder=" "
             />
             <label
-              htmlFor="floatin_email"
-              className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+              htmlFor="floating_email"
+              className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-primary-700 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
             >
               Email
             </label>
@@ -74,19 +77,19 @@ export default function Contacts() {
             <textarea
               id="message"
               rows="4"
-              className="block p-2.5 w-full text-sm text-gray-900 rounded-lg border-b border-secondary-300 bg-secondary-100"
+              className="block p-2.5 w-full text-sm text-gray-900 rounded-lg border-t-0 border-l-0 border-r-0 border-b-2 border-solid border-secondary-300 bg-secondary-100 focus:outline-none focus:border-primary-700"
               placeholder="Write your message here..."
             ></textarea>
           </div>
-          <div className="   ">
+          <div className="w-full">
             <button
-              className="text-xl relative transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl group font-bold cursor-pointer px-4 py-3 max-md:text-2xl max-md:px-3 max-md:py-2 bg-secondary-800 hover:bg-primary-800 text-secondary-200 rounded-xl overflow-hidden"
+              className="text-lg sm:text-xl relative transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl group font-bold cursor-pointer px-4 py-3 w-25 sm:max-md:text-2xl sm:max-md:px-3 sm:max-md:py-2 bg-secondary-800 hover:bg-primary-800 text-secondary-200 rounded-xl overflow-hidden"
               aria-label="send message"
             >
-              <span className="relative z-10 flex items-center gap-2 ">
+              <span className="relative z-10 flex items-center justify-center gap-2">
                 Submit
               </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-indigo-600  transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out rounded-xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-indigo-600 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out rounded-xl"></div>
             </button>
           </div>
         </form>
