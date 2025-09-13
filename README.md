@@ -41,4 +41,4 @@ Follow these steps to run the portfolio on your local machine:
    ```bash
    Go to http://localhost:3000 to view the portfolio.
 
-**Still Work in Progress**
+
