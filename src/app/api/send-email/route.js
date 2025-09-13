@@ -15,7 +15,7 @@ export async function POST(req) {
     console.log('Form data received:', { name, email: email.substring(0, 3) + '...' });  // Partial email for privacy
 
     // Create a transporter using Gmail
-    const transporter = nodemailer.createTransport({  // Fixed: createTransport (no extra 'er')
+    const transporter = nodemailer.createTransport({ 
       service: 'gmail',
       auth: {
         user: process.env.GMAIL_USER,
