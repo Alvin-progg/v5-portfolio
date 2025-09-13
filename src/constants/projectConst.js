@@ -1,5 +1,3 @@
-
-
 import p1 from "@/../public/project/p1.png";
 import p2 from "@/../public/project/p2.png";
 import p3 from "@/../public/project/p3.png";
@@ -10,51 +8,45 @@ import p6 from "@/../public/project/p6.png";
 export const projectConst = [
   {
     id: 1,
-    name: "Project 1",
-    disc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Portfolio v4",
+    disc: "A modern personal portfolio built with React and Tailwind CSS, showcasing my projects, skills, and experience.",
     img: p1,
-    source: "https://github.com/Alvin-progg",
-    demo: "https://alvin-prog-v5.vercel.app/",
+    link: "https://github.com/Alvin-progg/v3",
   },
   {
     id: 2,
-    name: "Project 2",
-    disc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Tobe Nguyen",
+    disc: "A Discord bot built with Node.js designed to manage raid events. It automates raid sign-ups, handles raid scheduling, and was mainly used for AVA raids.",
     img: p2,
-    source: "https://github.com/Alvin-progg",
-    demo: "https://alvin-prog-v5.vercel.app/",
+    link: "https://github.com/Alvin-progg/Tobe_bot",
   },
   {
     id: 3,
-    name: "Project 3",
-    disc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Portfolio v3",
+    disc: "An earlier version of my personal portfolio built with React and Tailwind CSS. It showcases my projects and skills but has since been improved in Portfolio v4.",
     img: p3,
-    source: "https://github.com/Alvin-progg",
-    demo: "https://alvin-prog-v5.vercel.app/",
+    link: "https://github.com/Alvin-progg/main-portfolio",
   },
   {
     id: 4,
-    name: "Project 4",
-    disc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "EduCore C++ System",
+    disc: "A C++ console-based academic management system that manages courses, students, grades, and GWA reports using the Philippine grading system.",
     img: p4,
-    source: "https://github.com/Alvin-progg",
-    demo: "https://alvin-prog-v5.vercel.app/",
+    link: "https://github.com/Alvin-progg/EduCore",
   },
   {
     id: 5,
-    name: "Project 5",
-    disc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Banking C++ System",
+    disc: "A C++ console-based banking management system that supports account creation, deposits, withdrawals, balance inquiries, and transaction history tracking.",
     img: p5,
-    source: "https://github.com/Alvin-progg",
-    demo: "https://alvin-prog-v5.vercel.app/",
+    link: "https://github.com/Alvin-progg/banking-system",
   },
   {
     id: 6,
-    name: "Project 5",
-    disc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    name: "Proposal Landing Page",
+    disc: "A simple landing page built for a company proposal. It was developed as a free project to present information in a clean and professional way.",
     img: p6,
-    source: "https://github.com/Alvin-progg",
-    demo: "https://alvin-prog-v5.vercel.app/",
+    link: "https://github.com/Alvin-progg/proposal",
   },
 ];
 
