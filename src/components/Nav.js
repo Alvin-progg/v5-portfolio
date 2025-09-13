@@ -99,7 +99,7 @@ export default function Nav() {
             </Link>
             <button 
               aria-label="Toggle Menu" 
-              className="text-3xl text-secondary-800 items-center hidden flex max-lg:flex"
+              className="text-3xl text-secondary-800 items-center hidden  max-lg:flex"
               onClick={toggleMobileMenu}
             >
               {isMobileMenuOpen ? <RiCloseFill /> : <RiMenu3Fill />}
