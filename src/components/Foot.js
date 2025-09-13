@@ -8,22 +8,22 @@ export default function Foot() {
       <div className="flex flex-col lg:flex-row items-center justify-center pt-8 pb-6 px-4 sm:px-6 lg:px-8 gap-6 lg:gap-0">
         <ul className="flex gap-6 lg:gap-8 text-2xl sm:text-3xl lg:text-4xl order-2 lg:order-1">
           <li>
-            <Link href="https://www.facebook.com/alvin.sucke" className="text-slate-900 hover:text-primary-900 transition-colors duration-300">
+            <Link href="https://www.facebook.com/alvin.sucke"aria-label="facebook" className="text-slate-900 hover:text-primary-900 transition-colors duration-300">
               <FaFacebook />
             </Link>
           </li>
           <li>
-            <Link href="https://github.com/Alvin-progg" className="text-slate-900 hover:text-primary-900 transition-colors duration-300">
+            <Link href="https://github.com/Alvin-progg"  aria-label="github"className="text-slate-900 hover:text-primary-900 transition-colors duration-300">
               <FaGithub />
             </Link>
           </li>
           <li>
-            <Link href="https://www.linkedin.com/in/alvin-aloya-45248b340/" className="text-slate-900 hover:text-primary-900 transition-colors duration-300">
+            <Link href="https://www.linkedin.com/in/alvin-aloya-45248b340/" aria-label="linkedI" className="text-slate-900 hover:text-primary-900 transition-colors duration-300">
               <FaLinkedin />
             </Link>
           </li>
           <li>
-            <Link href="https://www.instagram.com/aloyaalvin/" className="text-slate-900 hover:text-primary-900 transition-colors duration-300">
+            <Link href="https://www.instagram.com/aloyaalvin/"aria-label="insta" className="text-slate-900 hover:text-primary-900 transition-colors duration-300">
               <FaInstagram />
             </Link>
           </li>
