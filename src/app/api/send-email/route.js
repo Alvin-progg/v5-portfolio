@@ -11,8 +11,6 @@ export async function POST(req) {
       });
     }
 
-    // Log for debug (remove in production)
-    console.log('Form data received:', { name, email: email.substring(0, 3) + '...' });  // Partial email for privacy
 
     // Create a transporter using Gmail
     const transporter = nodemailer.createTransport({ 
@@ -21,15 +19,6 @@ export async function POST(req) {
         user: process.env.GMAIL_USER,
         pass: process.env.GMAIL_APP_PASSWORD,
       },
-    });
-
-    // Optional: Verify the transporter (logs if auth works)
-    await transporter.verify((error, success) => {
-      if (error) {
-        console.error('Transporter verification failed:', error);
-      } else {
-        console.log('Transporter ready for Gmail');
-      }
     });
 
     // Email options
