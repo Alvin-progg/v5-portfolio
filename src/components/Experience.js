@@ -113,7 +113,7 @@ export default function Experience() {
                   className="rounded-full size-[120px] max-xl:size-[100px] max-sm:size-[60px]"
                 />
                 <div className="flex flex-col gap-1">
-                  <p className="text-secondary-600 max-sm:text-sm">Strand:</p>
+                  <p className="text-secondary-600 max-sm:text-sm">Degree: </p>
                   <h3 className="text-xl max-sm:text- font-semibold text-primary-800">
                     Bachelor of Science in Information Technology
                   </h3>
