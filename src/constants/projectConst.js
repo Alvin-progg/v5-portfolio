@@ -17,9 +17,8 @@ export const projectConst = [
   {
     id: 2,
     name: "Ordering and Reservation System with Admin Panel",
-    disc: "An Order and Reservation System built with HTML, Tailwind CSS, and JavaScript for the frontend, connected to a PHP and MySQL backend API. It handles customer reservations, order management, and user records, providing a simple and efficient way to streamline booking and ordering processes.",
     img: p7,
-    link: "https://github.com/Alvin-progg/JOSEPHINE-S-BACKYARD-STEAKHOUSE"
+    disc:"A web-based Order and Reservation System built with HTML, Tailwind, JavaScript, PHP, and MySQL to streamline booking and order management.",
   },
   {
     id: 3,
