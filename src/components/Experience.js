@@ -32,7 +32,7 @@ export default function Experience() {
               <p>(2025 - Present )</p>
             </div>
             <p className="text-xl tracking-wider font-light">
-              As a Front-End Developer at WetechDev, I focus on building
+              As a Front-End Developer at WetechDev(Start Up Company), I focus on building
               responsive, user-friendly interfaces that deliver smooth and
               engaging web experiences.
             </p>
