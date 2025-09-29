@@ -11,7 +11,7 @@ import { useEffect } from "react";
 
 export default function Experience() {
     const handleDownload = () => {
-      saveAs("/test-cv.pdf", "AlvinAloya-CV.pdf"); 
+      saveAs("/test.txt", "AlvinAloya-CV.txt"); 
     };
 
  useEffect(()=>{

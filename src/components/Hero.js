@@ -8,7 +8,7 @@ import { saveAs } from "file-saver";
 import { useEffect } from "react";
 export default function Hero() {
   const handleDownload = () => {
-    saveAs("/test-cv.pdf", "AlvinAloya-CV.pdf"); 
+    saveAs("/test.txt", "AlvinAloya-CV.txt");
   };
   useEffect(() => {
     Aos.init();
